@@ -1,0 +1,41 @@
+.sobre-container {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.sobre-container h1 {
+  color: #096fc1;
+  font-size: 2.1rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.sobre-container h2 {
+  color: #004a80;
+  font-size: 1.25rem;
+  margin-top: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-container p {
+  color: #444;
+  font-size: 1.08rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+}
+
+.sobre-container ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+  font-size: 1.05rem;
+  list-style: disc inside;
+}
+
+.sobre-container li {
+  margin-bottom: 0.4rem;
+}

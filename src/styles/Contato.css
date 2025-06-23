@@ -1,0 +1,128 @@
+.contato-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contato-container h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contato-container p {
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .contato-info {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contato-info p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .contato-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .contato-info a:hover {
+    color: #0056b3;
+  }
+  
+  .contato-redes {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  
+  .contato-redes a {
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .contato-redes a:hover {
+    color: #007bff;
+  }
+  
+  .contato-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  
+  .contato-form h2 {
+    margin-bottom: 0.5rem;
+    color: #222;
+    font-size: 1.2rem;
+  }
+  
+  .contato-form label {
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .contato-form input,
+  .contato-form textarea {
+    padding: 0.7rem;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fff;
+    resize: none;
+  }
+  
+  .contato-form textarea {
+    min-height: 80px;
+  }
+  
+  .contato-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .contato-form button:hover {
+    background: #0056b3;
+  }
+  
+  .contato-sucesso {
+    margin-top: 1rem;
+    color: #218838;
+    background: #d4edda;
+    border: 1px solid #b7e0c3;
+    border-radius: 6px;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    text-align: center;
+    animation: fadeIn 0.7s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

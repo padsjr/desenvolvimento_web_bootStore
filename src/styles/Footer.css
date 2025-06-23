@@ -1,0 +1,44 @@
+.footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1.2rem 1rem 0.5rem 1rem;
+    font-size: 0.95rem;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contato span {
+    margin: 0 0.5rem;
+}
+
+.footer-contato a {
+    color: #096fc1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.footer-contato a:hover {
+    color: #004a80;
+    text-decoration: underline;
+}
+
+.footer-direitos {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+@media (min-width: 600px) {
+    .footer-contato {
+        flex-direction: row;
+    }
+}
+  

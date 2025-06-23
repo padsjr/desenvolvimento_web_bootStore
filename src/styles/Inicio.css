@@ -1,0 +1,52 @@
+.inicio-container {
+  max-width: 600px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.inicio-container h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  color: #096fc1;
+}
+
+.inicio-container p {
+  font-size: 1.18rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.home-produtos {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: #096fc1;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(9,111,193,0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.home-produtos:hover {
+  background-color: #004a80;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.home-contato {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #096fc1;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+  

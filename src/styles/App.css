@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
