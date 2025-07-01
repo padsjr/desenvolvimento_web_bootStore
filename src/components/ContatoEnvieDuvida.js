@@ -6,7 +6,6 @@ function ContatoEnvieDuvida(){
   
     function handleSubmit(e) {
       e.preventDefault();
-      // Salva no localStorage
       const contatosSalvos = JSON.parse(localStorage.getItem('contatos')) || [];
       contatosSalvos.push({ email, mensagem, data: new Date().toISOString() });
       localStorage.setItem('contatos', JSON.stringify(contatosSalvos));
